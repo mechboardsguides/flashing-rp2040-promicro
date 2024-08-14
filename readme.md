@@ -4,6 +4,8 @@ We strongly recommend flashing these before soldering.
 
 You will need to have a QMK command line environment installed- see here: https://docs.qmk.fm/newbs_getting_started
 
+You **do not** need QMK toolbox to flash RP2040 controllers.
+
 Compile your firmware, using the converter feature:
 
 ```qmk compile -kb crkbd -km via -e CONVERT_TO=rp2040_ce```
@@ -12,7 +14,7 @@ Compile your firmware, using the converter feature:
 
 Find the `uf2` file that produced in your `/qmk_firmware` folder on your computer.
 
-Plug in the controller holding the `BOOT` button. A folder called `RPI-RP2` should pop up.
+Plug in the controller holding the `BOOT` button. A folder called `RPI-RP2` should pop up. Some linux distros may need to manually mount the drive.
 
 Drag and drop the `uf2` file onto this `RPI-RP2` folder. It should automatically disconnect, then connect as a keyboard.
 
