@@ -21,7 +21,7 @@ Drag and drop the `uf2` file onto this `RPI-RP2` folder. It should automatically
 ![B043C5C6-089F-4AC5-B128-9258FA37E373_1_105_c](https://github.com/mechboardsguides/flashing-rp2040-promicro/assets/19674258/367d8305-6a93-4c2d-9ae4-c1cbea88c07f)
 
 
-If you have forgotten to flash the controller for the first time before soldering, you can enter bootloader by connecting the `BOOT` hole on the back to `GROUND` as indicated here:
+If you have forgotten to flash the controller for the first time before soldering, you can enter bootloader by connecting the `BOOT` hole on the back to `GROUND`, then plugging in the USB cable, as indicated here:
 
 ![8209F136-FC1D-4159-931C-556819390EB9_1_105_c](https://github.com/mechboardsguides/flashing-rp2040-promicro/assets/19674258/c912c9e6-eb5f-41c8-9971-c1cdc03a8c84)
 
