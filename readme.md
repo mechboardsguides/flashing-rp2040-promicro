@@ -8,9 +8,9 @@ You **do not** need QMK toolbox to flash RP2040 controllers.
 
 Compile your firmware, using the converter feature:
 
-```qmk compile -kb crkbd -km via -e CONVERT_TO=rp2040_ce```
+```qmk compile -kb crkbd -km default -e CONVERT_TO=rp2040_ce```
 
-```qmk compile -kb lily58 -km via -e CONVERT_TO=rp2040_ce```
+```qmk compile -kb lily58 -km default -e CONVERT_TO=rp2040_ce```
 
 Find the `uf2` file that produced in your `/qmk_firmware` folder on your computer.
 
