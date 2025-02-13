@@ -25,4 +25,4 @@ If you have forgotten to flash the controller for the first time before solderin
 
 ![8209F136-FC1D-4159-931C-556819390EB9_1_105_c](https://github.com/mechboardsguides/flashing-rp2040-promicro/assets/19674258/c912c9e6-eb5f-41c8-9971-c1cdc03a8c84)
 
-After flashing for the first time with QMK you can then enter bootloader with the usual QMK methods (reset switch, bootmagic, QK_BOOT keycode).
+After flashing for the first time with QMK you can then enter bootloader with the usual QMK methods (reset switch, bootmagic, QK_BOOT keycode, or bridging ground/reset pins twice).
